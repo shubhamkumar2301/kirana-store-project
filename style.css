@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 150px;
+    /* border-bottom: 1px solid  rgb(165, 163, 163); */
+    padding-bottom: 40px;
+    position: sticky !important;
+    top: 0 !important;
+   z-index: 1;
+   background-color: #fff;
+}
+
+.logo-section {
+    display: flex;
+    margin: 0 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+.logo-section img {
+    width: 15rem;
+}
+
+.search {
+    display: flex;
+    gap: 3px;
+    background-color: #f4f6f8;
+    padding: px 30px;
+    border: 0.15px solid rgb(165, 163, 163);
+    border-radius: 4px;
+}
+
+.search div {
+    font-size: 20px;
+    justify-items: center;
+}
+.inp{
+    width: 355px;
+    padding: 15px;
+    font-size: 20px;
+    background-color:  #f4f6f8;
+    border: none;
+    border-right: 0.5px solid rgb(165, 163, 163);
+
+}
+
+.inp:focus {
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 6px;
+}
+
+.icons i:hover{
+    color: green;
+}
+
+.link-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+.links {
+    margin-top: 0;
+    margin-left: 60px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.links a:hover{
+color: green;
+}
+
+.recent {
+    margin-top: 11px;
+    margin-right: 65px;
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.recent i {
+    font-size: 7px;
+}
+
+
+.c-img {
+    height: 80vh !important;
+}
+
+.heading {
+    left: 80px !important;
+    top: 0;
+    bottom: auto;
+   color: green !important;
+   font-weight: bold;
+   width: 60vw !important;
+   font-size: 40px;
+   text-align: left !important;
+}
+
+
+/* featured  */
+/*
+.featured{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    gap: 40px;
+}
+
+.featured-card a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+.featured-card img {
+    width: 50px;
+    /* height: 20px; 
+}
+
+.featured-card p {
+    width: 60px;
+    font-size: 8px;
+    
+}*/
